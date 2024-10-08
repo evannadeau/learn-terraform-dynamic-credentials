@@ -1,10 +1,10 @@
 
 # Create a VPC
-resource "aws_vpc" "example" {
-  cidr_block = "10.10.10.0/24"
+# resource "aws_vpc" "example" {
+#   cidr_block = "10.10.10.0/24"
 
-  tags = {
-    Name = var.subnet_name
-  }
-}
+#   tags = {
+#     Name = var.subnet_name
+#   }
+# }
 
